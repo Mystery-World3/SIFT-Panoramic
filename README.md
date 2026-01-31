@@ -13,10 +13,10 @@ Proyek ini adalah sistem **Computer Vision** yang dikembangkan untuk menggabungk
 ## 📋 Fitur Utama
 
 Sistem ini melakukan pemrosesan citra melalui beberapa tahapan utama:
-1.  🌟 **Feature Detection:** Mendeteksi titik kunci (*keypoints*) unik menggunakan algoritma SIFT.
-2.  🔍 **Feature Matching:** Mencocokkan deskriptor antar gambar menggunakan *Brute-Force Matcher*.
-3.  📐 **Homography Estimation:** Menghitung matriks transformasi menggunakan metode RANSAC untuk penyelarasan perspektif.
-4.  🖼️ **Image Stitching:** Menggabungkan gambar dan melakukan *warping* untuk menghasilkan output panorama.
+1. 🌟 **Feature Detection:** Mendeteksi titik kunci (*keypoints*) unik menggunakan algoritma SIFT.
+2. 🔍 **Feature Matching:** Mencocokkan deskriptor antar gambar menggunakan *Brute-Force Matcher*.
+3. 📐 **Homography Estimation:** Menghitung matriks transformasi menggunakan metode RANSAC untuk penyelarasan perspektif.
+4. 🖼️ **Image Stitching:** Menggabungkan gambar dan melakukan *warping* untuk menghasilkan output panorama.
 
 **Kelebihan Proyek:**
 * **Scale Invariant:** Tetap akurat meskipun gambar memiliki resolusi atau jarak fokus yang berbeda.
@@ -41,9 +41,12 @@ Pastikan struktur folder Anda terlihat seperti ini:
 │   └── utils.py
 ├── requirements.txt
 └── README.md
+```
 ## 🚀 Cara Instalasi
 
 1. **Clone Repository ini:**
 ```bash
 git clone [https://github.com/Mystery-World3/SIFT-Panoramic.git](https://github.com/Mystery-World3/SIFT-Panoramic.git)
 cd SIFT-Panoramic
+```
+
