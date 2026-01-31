@@ -29,3 +29,26 @@ Proyek ini dikembangkan untuk mengeksplorasi teknik *Computer Vision* dalam meny
 ├── docs/               # Laporan Tugas Besar & Presentasi
 ├── requirements.txt    # Daftar library yang diperlukan
 └── README.md           # Dokumentasi proyek
+
+---
+
+## ⚙️ Alur Kerja (Workflow)
+Proyek ini mengikuti langkah-langkah standar dalam *Computer Vision* untuk pembuatan panorama:
+
+
+
+1. **Preprocessing**: Membaca gambar input dan mengonversinya ke skala abu-abu (*grayscale*).
+2. **Detection**: Mencari titik-titik kunci menggunakan SIFT.
+3. **Matching**: Menghitung jarak antar deskriptor untuk menemukan pasangan titik yang sama di dua gambar.
+4. **Homography**: Menghitung matriks transformasi untuk menyelaraskan perspektif gambar kedua ke gambar pertama.
+5. **Blending**: Menggabungkan gambar dan menghaluskan sambungan agar tidak terlihat garis potong (seams).
+
+---
+
+## 🛠️ Instalasi & Persiapan
+
+1. **Clone Repositori**
+   ```bash
+   git clone [https://github.com/Mystery-World3/SIFT-Panoramic.git](https://github.com/Mystery-World3/SIFT-Panoramic.git)
+   cd SIFT-Panoramic
+
