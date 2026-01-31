@@ -41,3 +41,9 @@ Pastikan struktur folder Anda terlihat seperti ini:
 │   └── utils.py
 ├── requirements.txt
 └── README.md
+## 🚀 Cara Instalasi
+
+1. **Clone Repository ini:**
+```bash
+git clone [https://github.com/Mystery-World3/SIFT-Panoramic.git](https://github.com/Mystery-World3/SIFT-Panoramic.git)
+cd SIFT-Panoramic
