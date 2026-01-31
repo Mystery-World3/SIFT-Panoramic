@@ -65,8 +65,6 @@ pip install -r requirements.txt
 ```
 ## 💻 Cara Penggunaan
 
-## 💻 Cara Penggunaan
-
 ### 1. Menjalankan Image Stitching
 Pastikan gambar input berada di dalam folder `images/`, lalu jalankan perintah berikut:
 
