@@ -49,4 +49,50 @@ Pastikan struktur folder Anda terlihat seperti ini:
 git clone [https://github.com/Mystery-World3/SIFT-Panoramic.git](https://github.com/Mystery-World3/SIFT-Panoramic.git)
 cd SIFT-Panoramic
 ```
+2. **Siapkan Environment:**
+```bash
+python -m venv venv
 
+# Windows:
+venv\Scripts\activate
+
+# Mac/Linux:
+source venv/bin/activate
+```
+2. **Install Library yang Dibutuhkan:**
+```bash
+pip install -r requirements.txt
+```
+## 💻 Cara Penggunaan
+
+## 💻 Cara Penggunaan
+
+### 1. Menjalankan Image Stitching
+Pastikan gambar input berada di dalam folder `images/`, lalu jalankan perintah berikut:
+
+```bash
+python src/main.py
+```
+*Sistem akan otomatis melakukan deteksi fitur, matching, dan menyimpan hasil panorama di folder `results/`.*
+
+### 2. Penjelasan Singkat Output
+* 🔍 **Keypoints Matching:** Menampilkan garis-garis koneksi antar fitur yang serupa di kedua gambar sebagai validasi keakuratan deteksi.
+* 🖼️ **Final Panorama:** Hasil akhir penggabungan citra yang sudah melalui proses *warping* dan *blending* agar sambungan terlihat mulus.
+
+## 🛠️ Teknologi yang Digunakan
+
+* **Bahasa Pemrograman:** Python
+* **Library Computer Vision:** OpenCV (`opencv-contrib-python`)
+* **Numerical Processing:** NumPy
+* **Visualization:** Matplotlib
+
+## 👨‍💻 Penulis
+
+**Muhammad Mishbahul Muflihin**
+
+* Program Studi Teknik Informatika (Software Engineering)
+* Universitas Darussalam Gontor
+* Kontak: [mishbahulmuflihin@gmail.com](mailto:mishbahulmuflihin@gmail.com)
+
+---
+*Proyek ini dikembangkan sebagai bentuk implementasi praktis dari mata kuliah Pengolahan Citra Digital.*
